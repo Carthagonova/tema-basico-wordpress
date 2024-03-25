@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(/wp-content/themes/bluezone/core/fonts/Philosopher-Regular.ttf) format("ttf");
+}
+@font-face {
+    font-family: Philosopher;
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url(/wp-content/themes/bluezone/core/fonts/Philosopher-Italic.ttf) format("ttf");
+}
+@font-face {
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(/wp-content/themes/bluezone/core/fonts/Philosopher-Bold.ttf) format("ttf");
+}
+@font-face {
+    font-family: Philosopher;
+    font-style: italic;
+    font-weight: 700;
+    font-display: block;
+    src: url(/wp-content/themes/bluezone/core/fonts/Philosopher-BoldItalic.ttf) format("ttf");
+}
