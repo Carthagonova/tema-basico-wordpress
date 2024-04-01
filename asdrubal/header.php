@@ -31,12 +31,12 @@ include 'complements/versiones.php';
 <link rel="apple-touch-icon-precomposed" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/images/favicon.jpg"/>
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.jpg" sizes="32x32"/>
 
-<?php
+<?php // Aquí el wp head
+wp_head();
+?>
 
-// Aquí el wp head
- wp_head();
- ?>
- <link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/asdrubal/css/main.css<?php echo constant("var_param_monthly") . constant("css_version");?>' type='text/css' media='all'/>
+
+<link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/asdrubal/css/main.css<?php echo constant("var_param_monthly") . constant("css_version");?>' type='text/css' media='all'/>
 
  <meta name="user-date" content="<?php date_default_timezone_set('Europe/Madrid'); $date = date('m/d/Y H:i:s');echo $date;?>">
  <!-- #CAMBIO <meta name="google-site-verification" content="xQe6jqso118wd9vc36A5VYTpFKjg3W-AEVipHm9XnKA" />-->
